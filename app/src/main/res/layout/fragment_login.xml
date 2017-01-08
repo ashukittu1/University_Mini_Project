@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:orientation="vertical"
+    tools:context="com.ashutech.university_mini_project.LoginFragment">
+
+<ImageView
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/logo"
+    android:id="@+id/img1" />
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    android:layout_weight="1">
+
+ <TextView
+
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Welcome To Dravian University"
+     android:textSize="20sp"
+     android:gravity="center"
+     android:layout_marginTop="80sp"/>
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/add_user"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="left"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User?..."
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="40dp"/>
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:text="Register"
+        android:background="@drawable/myshape1"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"/>
+
+</LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:gravity="left"
+            android:background="@drawable/register_user"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Have an account"
+            android:layout_marginTop="50dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"/>
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:id="@+id/button2"
+            android:textAllCaps="false"
+            android:layout_marginTop="55dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

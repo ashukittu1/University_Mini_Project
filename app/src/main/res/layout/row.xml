@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id1"
+            android:textColor="#000"
+            android:layout_marginRight="100dp"
+            android:text="1"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:textSize="19sp"
+                android:textColor="#000"
+                android:text="1"/>
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/mobile"
+                android:textColor="#000"
+                android:text="1"/>
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                android:textColor="#000"
+                android:text="1"/>
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/course"
+                android:textColor="#000"
+                android:text="1"/>
+        </LinearLayout>
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkbox"/>
+    </LinearLayout>
+</LinearLayout>
